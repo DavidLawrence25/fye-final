@@ -6,14 +6,48 @@
 }
 
 * {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
     background-color: var(--b);
 }
 
-/* Heading */
+/* Header, Main, & Footer */
 header {
     background-color: var(--a);
     min-height: 6vh;
     max-height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0.75vmin;
+    margin: 0;
+}
+
+header h3 {
+    margin-left: 0.5vw;
+    margin-right: auto;
+}
+
+header button {
+    background-color: var(--c);
+    color: white;
+    height: 5.25vh;
+    font-size: 1.4vw;
+    border: 0.5vmin solid var(--d);
+    border-radius: 0.5vmin;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+header button:hover {
+    background-color: var(--b);
+    border: 0.5vmin solid var(--c)
+}
+
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -24,44 +58,30 @@ header {
 /* Headings */
 h1 { /* Title */
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 3vw;
 }
 h2 {
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 2.6vw;
 }
 h3 {
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 2.2vw;
 }
 h4 {
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 1.8vw;
 }
 h5 {
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 1.4vw;
 }
 h6 { /* Subtitle */
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 1vw;
 }
 /* Normal Text */
 p { /* Paragraph */
     color: white;
-    background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-size: 2vw;
 }
