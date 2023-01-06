@@ -10,6 +10,7 @@
 }
 
 body {
+	margin-top: 1vh;
 	background-color: var(--b);
 }
 
@@ -59,8 +60,7 @@ header button {
 	font-size: 1vw;
 	border: 0.4vmin solid var(--d);
 	border-radius: 0.4vmin;
-	margin-left: 0.15vw;
-	margin-right: 0.15vw;
+	margin-right: 0.3vw;
 }
 
 header button:hover {
