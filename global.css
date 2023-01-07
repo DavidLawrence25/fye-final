@@ -62,6 +62,8 @@ header button {
 	border: 0.4vmin solid var(--d);
 	border-radius: 0.4vmin;
 	margin-right: 0.3vw;
+	padding-left: 1ch;
+	padding-right: 1ch;
 }
 
 header button:hover {
