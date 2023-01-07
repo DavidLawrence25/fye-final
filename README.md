@@ -17,7 +17,7 @@ Your goal is to summarize your experience as an FYE student this semester. Speci
 
 ## Assignment Format
 
-You have a choice* on how you'd like to submit thsi assignment: **(\*\*\*Be sure to address ALL the above bullet points in your chosen submission format)**
+You have a choice* on how you'd like to submit this assignment: **(\*\*\*Be sure to address ALL the above bullet points in your chosen submission format)**
 - 4-5 minute PowerPoint presentation presented to me during a scheduled time.
 - 4-5 minute podcast or video (can be a video of you talking or a slideshow with your voiceover)
 - 4-5 minute commercial promoting FYE

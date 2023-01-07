@@ -3,6 +3,7 @@
 	--b: #553939;
 	--c: #704F4F;
 	--d: #A77979;
+	--e: #ebd0d0;
 }
 
 * {
@@ -71,8 +72,10 @@ header button:hover {
 main {
 	position: absolute;
 	top: 8vh;
-	margin-left: 4vw;
-	margin-right: 4vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 /* Headings */
@@ -124,11 +127,22 @@ h6 { /* Subtitle */
 	margin-top: 0.5vh;
 	margin-bottom: 0.5vh;
 }
-/* Normal Text */
+/* Miscellaneous */
 p { /* Paragraph */
 	color: white;
 	font-size: 1.2vw;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 4vw;
+}
+a { /* Link */
+	text-decoration: none;
+	color: var(--e);
+}
+hr { /* Horizontal Rule */
+	border-style: dotted;
+	border-width: .375vw;
+	border-color: white;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
 }
