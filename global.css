@@ -122,8 +122,8 @@ h5 {
 	margin-bottom: 0.5vh;
 }
 h6 { /* Subtitle */
-	color: white;
-	font-size: 1vw;
+	color: var(--e);
+	font-size: 0.8vw;
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 0.5vh;
@@ -147,4 +147,10 @@ hr { /* Horizontal Rule */
 	border-bottom: 0;
 	border-left: 0;
 	border-right: 0;
+}
+.foot {
+	text-align: right;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
 }
