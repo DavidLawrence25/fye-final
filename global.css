@@ -197,9 +197,16 @@ ol {
 	margin-right: auto;
 }
 .foot {
-	text-align: right;
 	position: fixed;
 	bottom: 1%;
+}
+.left {
+	text-align: left;
+	font-size: 0.4vw;
+	left: 1%;
+}
+.right {
+	text-align: right;
 	right: 1%;
 }
 .googleDoc {
