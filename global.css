@@ -129,6 +129,43 @@ h6 { /* Subtitle */
 	margin-top: 0.5vh;
 	margin-bottom: 0.5vh;
 }
+/* Table */
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	padding: 0.4vw;
+	font-size: 1.4vw;
+	color: var(--e);
+}
+.aspect {
+	padding-right: 5vw;
+	border-right: 0.1vw dashed var(--e);
+}
+.inner {
+	border-top: 0.1vw dashed var(--e);
+	border-bottom: 0.1vw dashed var(--e);
+}
+.upper {
+	border-bottom: 0.1vw dashed var(--e);
+}
+.lower {
+	border-top: 0.1vw dashed var(--e);
+}
+.leftSpectrum {
+	text-align: right;
+	border-left: 0.1vw dashed var(--e);
+	border-right: 0;
+}
+.rightSpectrum {
+	text-align: left; /* unnecessary; only here for clarity */
+	border-left: 0;
+}
+.lrArrow {
+	border-left: 0;
+	border-right: 0;
+}
 /* Miscellaneous */
 p { /* Paragraph */
 	color: white;
@@ -153,4 +190,10 @@ hr { /* Horizontal Rule */
 	position: fixed;
 	bottom: 1%;
 	right: 1%;
+}
+.googleDoc {
+	width: 40vw;
+	height: 70vh;
+	margin: 2vw auto;
+	display: block;
 }
